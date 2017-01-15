@@ -41,7 +41,7 @@ ul.topnav li.icon {display: none;}
 /* main body*/
    body{background-color:white;}
 /* About page*/
-   h1{
+   h1,h2,h3,h4,h5,h6,p{
      font-family: 'Poppins', sans-serif;
    }
 /* image gallery*/
