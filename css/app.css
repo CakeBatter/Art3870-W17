@@ -45,13 +45,13 @@ ul.topnav li.icon {display: none;}
      font-family: 'Poppins', sans-serif;
    }
 /* image gallery*/
-#myImg {
+#myImg01,#myImg02,#myImg03 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg01,#myImg02,#myImg03:hover {opacity: 1;}
 
 /* The Modal (background) */
 .modal {
@@ -73,11 +73,11 @@ ul.topnav li.icon {display: none;}
   margin: auto;
   display: block;
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
 }
 
 /* Caption of Modal Image */
-#caption {
+#caption01,#caption02,#caption03 {
   margin: auto;
   display: block;
   width: 100%;
@@ -109,7 +109,7 @@ ul.topnav li.icon {display: none;}
 }
 
 /* The Close Button */
-.close {
+.close01, .close02, .close03 {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -117,10 +117,11 @@ ul.topnav li.icon {display: none;}
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  cursor: pointer;
 }
 
-.close:hover,
-.close:focus {
+.close01, .close02, .close03 :hover,
+.close01, .close02, .close03 :focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
